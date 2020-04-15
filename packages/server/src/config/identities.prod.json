@@ -1,0 +1,50 @@
+[
+    {
+        "uniqueId": "payer",
+        "user": "payer",
+        "org": "allamericanhealthvkj-fhirfinancialnetworkgke",
+        "couch": {
+            "host": "localhost",
+            "protocol": "http",
+            "port": "5084"
+        },
+        "networkProfile": "../../../config/networkprofile.yaml",
+        "keyStore": "../../../config/" 
+    },
+    {
+        "uniqueId": "patient",
+        "user": "instamed",
+        "org": "instamedycb-fhirfinancialnetworksun",
+        "couch": {
+            "host": "localhost",
+            "protocol": "http",
+            "port": "5184"
+        },
+        "networkProfile": "../../../config/networkprofile.yaml",
+        "keyStore": "../../../config/" 
+    },
+    { 
+        "uniqueId": "provider",
+        "user": "provider",
+        "org": "southbendflucliniclff-fhirfinancialnetworkahb",
+        "couch": {
+            "host": "localhost",
+            "protocol": "http",
+            "port": "5284"
+        },
+        "networkProfile": "../../../config/networkprofile-provider.yaml",
+        "keyStore": "../../../config/" 
+    },
+    {
+        "uniqueId": "consortiumAdmin",
+        "user": "payer",
+        "org": "allamericanhealthvkj-fhirfinancialnetworkgke",
+        "couch": {
+            "host": "localhost",
+            "protocol": "http",
+            "port": "5284"
+        },
+        "networkProfile": "../../../config/networkprofile.yaml",
+        "keyStore": "../../../config/"
+    }
+]

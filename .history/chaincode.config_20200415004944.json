@@ -1,0 +1,47 @@
+{
+  "user": "admin",
+  "txTimeout": 300000,
+  "skipInit": true,
+  "channel": "ch1",
+  "keyStore": "/Users/adesai/hyperledger-fabric-network/.hfc-org1",
+  "//**INSIDE-DOCKER**//keyStore": "/config/.hfc-org1",
+  "networkProfile": "/Users/adesai/hyperledger-fabric-network/network-profiles/org1.network-profile.yaml",
+  "//**INSIDE-DOCKER**//networkProfile": "/config/network-profiles/org1.network-profile.inside-docker.yaml",
+  "controllers": [
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "PaymentController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "ClaimController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "PatientController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "ParticipantController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "OrganizationController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "GovernanceController"
+    },
+    {
+      "name": "financial-cc",
+      "version": "file:./packages/financial-cc",
+      "controller": "FeeExtensionsController"
+    }
+  ]
+}
